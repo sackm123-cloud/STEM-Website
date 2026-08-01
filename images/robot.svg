@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Friendly educational robot</title>
+  <desc id="desc">A blue and orange robot used as a STEM learning illustration.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#eff6ff"/></linearGradient></defs>
+  <rect width="800" height="600" rx="48" fill="url(#bg)"/>
+  <circle cx="640" cy="110" r="62" fill="#fb923c" opacity=".9"/>
+  <path d="M400 110v55" stroke="#1e3a8a" stroke-width="18" stroke-linecap="round"/><circle cx="400" cy="88" r="22" fill="#f97316"/>
+  <rect x="245" y="155" width="310" height="205" rx="55" fill="#2563eb"/><rect x="280" y="195" width="240" height="115" rx="28" fill="#eff6ff"/>
+  <circle cx="345" cy="250" r="22" fill="#172554"/><circle cx="455" cy="250" r="22" fill="#172554"/><path d="M350 292q50 38 100 0" fill="none" stroke="#f97316" stroke-width="13" stroke-linecap="round"/>
+  <rect x="290" y="380" width="220" height="130" rx="30" fill="#1d4ed8"/><circle cx="400" cy="430" r="28" fill="#fb923c"/>
+  <path d="M290 405l-95 60M510 405l95 60M345 505l-35 65M455 505l35 65" stroke="#1e3a8a" stroke-width="28" stroke-linecap="round"/>
+</svg>
