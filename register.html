@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration | AI STEM Innovation</title>
+
+    <meta name="description"
+        content="Register for Robotics, AI, Coding, IoT, Drone Technology and 3D Printing courses.">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<div class="container">
+
+<div class="logo">
+<h2>AI STEM <span>Innovation</span></h2>
+</div>
+
+<nav id="navMenu">
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="register.html" class="active btn">Register</a></li>
+
+</ul>
+
+</nav>
+
+<div class="menu-btn" id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</div>
+
+</header>
+
+<!-- ================= PAGE BANNER ================= -->
+
+<section class="page-banner">
+
+<div class="container">
+
+<h1>Student Registration</h1>
+
+<p>
+
+Complete the form below to enroll in your preferred STEM course.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= REGISTRATION FORM ================= -->
+
+<section class="register-section">
+
+<div class="container">
+
+<div class="form-container">
+
+<h2>Registration Form</h2>
+
+<form id="registrationForm">
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="studentName">Student Name *</label>
+
+<input
+type="text"
+id="studentName"
+name="studentName"
+placeholder="Enter full name"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label for="fatherName">Parent / Guardian *</label>
+
+<input
+type="text"
+id="fatherName"
+name="fatherName"
+placeholder="Parent or Guardian Name"
+required>
+
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="email">Email *</label>
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="example@email.com"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label for="phone">Mobile Number *</label>
+
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="10-digit Mobile Number"
+required>
+
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="school">School Name *</label>
+
+<input
+type="text"
+id="school"
+name="school"
+placeholder="School Name"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label for="grade">Class / Grade *</label>
+
+<select id="grade" name="grade" required>
+
+<option value="">Select Grade</option>
+
+<option>UKG</option>
+<option>Grade 1</option>
+<option>Grade 2</option>
+<option>Grade 3</option>
+<option>Grade 4</option>
+<option>Grade 5</option>
+<option>Grade 6</option>
+<option>Grade 7</option>
+<option>Grade 8</option>
+<option>Grade 9</option>
+<option>Grade 10</option>
+<option>Grade 11</option>
+<option>Grade 12</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="course">Select Course *</label>
+
+<select id="course" name="course" required>
+
+<option value="">Choose Course</option>
+
+<option>Robotics</option>
+<option>Artificial Intelligence</option>
+<option>Programming</option>
+<option>Internet of Things (IoT)</option>
+<option>Drone Technology</option>
+<option>3D Printing</option>
+<option>Electronics</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label for="mode">Training Mode *</label>
+
+<select id="mode" name="mode" required>
+
+<option value="">Select Mode</option>
+
+<option>Offline</option>
+<option>Online</option>
+<option>Hybrid</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label for="address">Address</label>
+
+<textarea
+id="address"
+name="address"
+rows="4"
+placeholder="Enter full address"></textarea>
+
+</div>
+
+<div class="form-group">
+
+<label for="message">Message</label>
+
+<textarea
+id="message"
+name="message"
+rows="5"
+placeholder="Additional information"></textarea>
+
+</div>
+
+<div class="checkbox">
+
+<input
+type="checkbox"
+id="agree"
+required>
+
+<label for="agree">
+
+I confirm that the information provided is correct.
+
+</label>
+
+</div>
+
+<button
+type="submit"
+class="primary-btn">
+
+Submit Registration
+
+</button>
+
+</form>
+
+<div id="successMessage" style="display:none; margin-top:20px;">
+
+<h3 style="color:green;">
+
+✅ Registration submitted successfully!
+
+</h3>
+
+<p>
+
+Thank you for registering with AI STEM Innovation.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY REGISTER ================= -->
+
+<section class="features">
+
+<div class="container">
+
+<h2 class="section-title">
+
+Why Enroll With Us?
+
+</h2>
+
+<div class="feature-grid">
+
+<div class="card">
+
+<i class="fa-solid fa-user-graduate"></i>
+
+<h3>Expert Trainers</h3>
+
+<p>
+
+Learn from experienced STEM educators.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-flask"></i>
+
+<h3>Hands-on Projects</h3>
+
+<p>
+
+Practical learning through real engineering projects.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-certificate"></i>
+
+<h3>Certificate</h3>
+
+<p>
+
+Receive a course completion certificate.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-briefcase"></i>
+
+<h3>Future Skills</h3>
+
+<p>
+
+Develop skills in Robotics, AI and emerging technologies.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+
+<h3>AI STEM Innovation</h3>
+
+<p>
+
+Building Future Innovators Through STEM Education.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 AI STEM Innovation. All Rights Reserved.
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/register.js"></script>
+
+</body>
+
+</html>
