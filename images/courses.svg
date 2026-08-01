@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title">
+  <title id="title">STEM course illustration</title>
+  <rect width="800" height="520" rx="34" fill="#eff6ff"/>
+  <path d="M115 390h570" stroke="#bfdbfe" stroke-width="18" stroke-linecap="round"/>
+  <rect x="135" y="110" width="230" height="250" rx="24" fill="#2563eb"/><rect x="435" y="110" width="230" height="250" rx="24" fill="#172554"/>
+  <circle cx="250" cy="205" r="55" fill="#f97316"/><path d="M220 205h60M250 175v60" stroke="white" stroke-width="14" stroke-linecap="round"/>
+  <path d="M490 195h120M490 235h90M490 275h120" stroke="#93c5fd" stroke-width="16" stroke-linecap="round"/>
+  <path d="M205 315h90" stroke="white" stroke-width="15" stroke-linecap="round"/>
+</svg>
